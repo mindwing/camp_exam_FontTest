@@ -12,7 +12,7 @@
         android:id="@+id/intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="폰트테스트"
+        android:text="설정에서 글자크기를 바꿔보세요."
         android:textSize="20dp" />
 
     <TextView
@@ -63,6 +63,56 @@
         android:text="35dp - bold|italic"
         android:textColor="#ff7f7f"
         android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dp5"
+        android:layout_marginTop="30dp"
+        android:text="15sp"
+        android:textColor="#7f7fff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp1"
+        android:text="20sp - bold|italic"
+        android:textColor="#7f7fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/sp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp2"
+        android:text="25sp - bold|italic|normal"
+        android:textColor="#7f7fff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic|normal" />
+
+    <TextView
+        android:id="@+id/sp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp3"
+        android:text="30sp - bold"
+        android:textColor="#7f7fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp4"
+        android:text="35sp - bold|italic"
+        android:textColor="#7f7fff"
+        android:textSize="35sp"
         android:textStyle="bold|italic" />
 
 </RelativeLayout>
