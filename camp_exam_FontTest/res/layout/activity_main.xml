@@ -9,8 +9,60 @@
     tools:context="kr.mindwing.camp_exam_fonttest.MainActivity" >
 
     <TextView
+        android:id="@+id/intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="폰트테스트"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro"
+        android:layout_marginTop="30dp"
+        android:text="15dp"
+        android:textColor="#ff7f7f"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/dp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dp1"
+        android:text="20dp - bold|italic"
+        android:textColor="#ff7f7f"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/dp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dp2"
+        android:text="25dp - bold|italic|normal"
+        android:textColor="#ff7f7f"
+        android:textSize="25dp"
+        android:textStyle="bold|italic|normal" />
+
+    <TextView
+        android:id="@+id/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dp3"
+        android:text="30dp - bold"
+        android:textColor="#ff7f7f"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dp4"
+        android:text="35dp - bold|italic"
+        android:textColor="#ff7f7f"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
